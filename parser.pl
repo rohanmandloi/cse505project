@@ -104,7 +104,7 @@ np((X^S)^S, gap(np, X)) --> [].
 
 
 
-%%% Verb Phrases
+%%% Verb Phrases 
 vp(Form, X^S, GapInfo) --> tv(Form, X^VP), np(VP^S, GapInfo).
 vp(Form, VP, nogap) --> iv(Form, VP).
 vp(Form1, VP2, GapInfo) -->
@@ -171,13 +171,12 @@ n( professor, X^ .professor(X) ).
 n( program, X^ .program(X) ).
 n( programmer, X^ .programmer(X) ).
 n( student, X^ .student(X) ).
-pn( begriffsschrift, begriffsschrift ).
 pn( jack, jack ).
 pn( bill, bill ).
 pn( gottlob, gottlob ).
-pn( lunar, lunar ).
+pn( john, john ).
 pn( 1984, 1984 ).
-pn( shrdlu, shrdlu ).
+pn( tom, tom ).
 pn( terry, terry ).
 iv( halt, halts, halted,
 halted, halting, X^ .halt(X) ).
