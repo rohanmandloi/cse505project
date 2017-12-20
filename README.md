@@ -1,14 +1,19 @@
 # cse505project
-Open XSB
+To run this program open XSB
+
 import this file:
   '[parser].'
+
 Now you can run the system by typing
   'run.'. 
+
 Now you will get something like this:
 '-->'. 
+
 Now you can write a statement 
 --> 1984 is a novel
-and you can ask questions:
+
+You can ask questions:
 --> What is a novel
 answer([1984]).
 
