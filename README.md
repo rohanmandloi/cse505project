@@ -12,6 +12,9 @@ and you can ask questions:
 --> What is a novel
 answer([1984]).
 
+
+
+
 As the dictionary used in this case is very small. There is a limit to things what a statement can have.
 Noun: tom, jack, john, bill, terry, 1984.
 They can be author, programmer, novel, program name.
